@@ -38,6 +38,7 @@ header {
 
   h3{
     font-size:x-large ;
+    padding: 15px;
   }
 
   body{
@@ -48,6 +49,10 @@ header {
     display: flex;
     justify-content: space-around;
     
+ }
+
+ nav li a:hover{
+  color: darkcyan;
  }
 
  ul{
@@ -82,6 +87,8 @@ p a{
     height: 40px;
     border-radius: 8px;
 }
-p a.hover{
+p a:hover{
+  background-color: white;
+  color: black;
     
 }
